@@ -1,4 +1,91 @@
-baseURL = 'https://example.org/'
-languageCode = 'zh-cn'
-title = '莫伊随身携带的避难所'
-theme = 'papermod'
+# 基础配置
+baseURL = "https://example.org/"
+languageCode = "zh-cn"
+title = "莫伊随身携带的避难所"
+theme = "papermod"
+
+[pagination]
+  pagerSize = 5
+  
+buildDrafts = false
+enableEmoji = true
+hasCJKLanguage = true
+
+# 时间格式
+timeZone = "Asia/Shanghai"
+defaultContentLanguage = "zh-cn"
+summaryLength = 30
+
+[params]
+  env = "production"
+  description = "莫伊的个性化数字空间 | 技术博客与生活随笔"
+  author = "莫伊"
+  defaultTheme = "auto"
+  displayFullLangName = true
+
+  [params.homeInfoParams]
+    Title = "欢迎来到我的数字避难所"
+    Content = """
+    🚀 这里记录我的技术探索与生活感悟
+    📚 主要领域：Web开发、Linux运维、开源文化
+    ☕️ 偶尔分享咖啡与阅读心得
+    """
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+    title = "GitHub 仓库"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://twitter.com/yourhandle"
+    title = "技术推文"
+  [[params.socialIcons]]
+    name = "weibo"
+    url = "https://weibo.com/yourid"
+    title = "日常分享"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+    title = "订阅 RSS"
+
+  [params.search]
+    enable = true
+    type = "fuse"
+    placeholder = "搜索文章..."
+    maxResultLength = 30
+
+# 多语言配置
+[languages.zh-cn]
+  languageName = "简体中文"
+  weight = 1
+
+  [[languages.zh-cn.menu.main]]
+    name = "首页"
+    url = "/"
+    weight = 1
+
+  [[languages.zh-cn.menu.main]]
+    name = "归档"
+    url = "/archives/"
+    weight = 10
+
+  [[languages.zh-cn.menu.main]]
+    name = "标签"
+    url = "/tags/"
+    weight = 20
+
+  [[languages.zh-cn.menu.main]]
+    name = "项目"
+    url = "/projects/"
+    weight = 30
+
+  [[languages.zh-cn.menu.main]]
+    name = "关于"
+    url = "/about/"
+    weight = 40
+
+# 如果需要英文支持，添加对应配置
+[languages.en]
+  languageName = "English"
+  weight = 1
+  contentDir = "content/en"

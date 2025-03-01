@@ -1,0 +1,4 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-cn'
+title = '莫伊随身携带的避难所'
+theme = 'papermod'
