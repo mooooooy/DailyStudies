@@ -27,32 +27,43 @@ summaryLength = 30
     Title = "欢迎来到我的数字避难所"
     Content = """
     🚀 这里记录我的技术探索与生活感悟
-    📚 主要领域：Web开发、Linux运维、开源文化
-    ☕️ 偶尔分享咖啡与阅读心得
+    📚 主要领域：经济学、金融、统计学
+    ☕️ 主要分享阅读心得
     """
 
   [[params.socialIcons]]
     name = "github"
     url = "https://github.com/yourusername"
     title = "GitHub 仓库"
+  
+  [[params.socialIcons]]
+    name = "weixin"  # Font Awesome 中的微信图标名称
+    url = "/wechat-qr"  # 链接到你的微信二维码页面
+    title = "微信公众号"
+
   [[params.socialIcons]]
     name = "twitter"
     url = "https://twitter.com/yourhandle"
     title = "技术推文"
+
   [[params.socialIcons]]
     name = "weibo"
     url = "https://weibo.com/yourid"
     title = "日常分享"
-  [[params.socialIcons]]
-    name = "rss"
-    url = "/index.xml"
-    title = "订阅 RSS"
+
 
   [params.search]
     enable = true
     type = "fuse"
     placeholder = "搜索文章..."
     maxResultLength = 30
+    showSavedSearch = true  # 显示搜索历史
+
+  [build]
+    writeStats = true
+
+  [outputs]
+    home = ["HTML", "RSS", "JSON"]
 
 # 多语言配置
 [languages.zh-cn]
@@ -89,3 +100,4 @@ summaryLength = 30
   languageName = "English"
   weight = 1
   contentDir = "content/en"
+
