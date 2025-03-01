@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Moy’s portable refuge</title>
-      <link>http://localhost:1313/moys-portable-refuge/</link>
+      <link>http://localhost:1313/posts/moys-portable-refuge/</link>
       <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/moys-portable-refuge/</guid>
+      <guid>http://localhost:1313/posts/moys-portable-refuge/</guid>
       <description>&lt;h1 id=&#34;introduction-to-moys-portable-refuge&#34;&gt;Introduction to Moy’s portable refuge&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;莫伊会在这里更新自己的学习日志&lt;/li&gt;
