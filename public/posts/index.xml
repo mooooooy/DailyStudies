@@ -2,11 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on 莫伊随身携带的避难所</title>
-    <link>https://example.org/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on 莫伊随身携带的避难所</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction to Moy’s portable refuge</title>
+      <link>http://localhost:1313/posts/introduction-to-moys-portable-refuge/</link>
+      <pubDate>Thu, 27 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/introduction-to-moys-portable-refuge/</guid>
+      <description>&lt;h1 id=&#34;introduction-to-moys-portable-refuge&#34;&gt;Introduction to Moy’s portable refuge&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;莫伊会在这里更新自己的学习日志&lt;/li&gt;&#xA;&lt;li&gt;来勉励自己每日都进步&lt;/li&gt;&#xA;&lt;li&gt;希望能做到日更吧！&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 14 Jan 2024 07:07:07 +0100</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;&#xA;&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
