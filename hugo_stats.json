@@ -27,6 +27,7 @@
       "pre",
       "script",
       "span",
+      "strong",
       "style",
       "sup",
       "svg",
@@ -70,6 +71,7 @@
       "post-tags",
       "post-title",
       "social-icons",
+      "tag-entry",
       "terms-tags",
       "top-link"
     ],
