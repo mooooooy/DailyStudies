@@ -14,6 +14,7 @@
       "head",
       "header",
       "html",
+      "img",
       "li",
       "line",
       "link",
@@ -34,7 +35,6 @@
     ],
     "classes": [
       "active",
-      "anchor",
       "archive-count",
       "archive-entry",
       "archive-entry-title",
@@ -76,7 +76,7 @@
     "ids": [
       "2025",
       "2025-February",
-      "introduction-to-moys-portable-refuge",
+      "2025-May",
       "menu",
       "moon",
       "sun",
