@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>莫伊随身携带的避难所</title>
-    <link>http://localhost:1313/zh-cn/</link>
+    <link>https://example.org/zh-cn/</link>
     <description>Recent content on 莫伊随身携带的避难所</description>
     <generator>Hugo -- 0.144.2</generator>
     <language>zh-cn</language>
-    <atom:link href="http://localhost:1313/zh-cn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://example.org/zh-cn/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
