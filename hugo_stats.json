@@ -10,6 +10,7 @@
       "footer",
       "h1",
       "h2",
+      "h3",
       "head",
       "header",
       "html",
@@ -26,6 +27,7 @@
       "script",
       "span",
       "style",
+      "sup",
       "svg",
       "title",
       "ul"
@@ -33,6 +35,16 @@
     "classes": [
       "active",
       "anchor",
+      "archive-count",
+      "archive-entry",
+      "archive-entry-title",
+      "archive-header-link",
+      "archive-meta",
+      "archive-month",
+      "archive-month-header",
+      "archive-posts",
+      "archive-year",
+      "archive-year-header",
       "entry-content",
       "entry-footer",
       "entry-header",
@@ -42,7 +54,6 @@
       "footer",
       "header",
       "home-info",
-      "lang-switch",
       "list",
       "logo",
       "logo-switches",
@@ -63,14 +74,15 @@
       "top-link"
     ],
     "ids": [
+      "2025",
+      "2025-February",
       "introduction-to-moys-portable-refuge",
       "menu",
       "moon",
       "sun",
       "theme-toggle",
       "top",
-      "top-link",
-      "让我来看看怎么个事"
+      "top-link"
     ]
   }
 }

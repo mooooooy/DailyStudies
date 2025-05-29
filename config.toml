@@ -1,3 +1,5 @@
+# config.toml
+
 # 基础配置
 baseURL = "https://example.org/"
 languageCode = "zh-cn"
@@ -13,7 +15,6 @@ hasCJKLanguage = true
 
 # 时间格式
 timeZone = "Asia/Shanghai"
-defaultContentLanguage = "zh-cn"
 summaryLength = 30
 
 [params]
@@ -26,8 +27,8 @@ summaryLength = 30
   [params.homeInfoParams]
     Title = "欢迎来到我的数字避难所"
     Content = """
-    🚀 这里记录我的技术探索与生活感悟
-    📚 主要领域：经济学、金融、统计学
+    🚀 这里记录我的技术探索与生活感悟  
+    📚 主要领域：经济学、金融、统计学  
     ☕️ 主要分享阅读心得
     """
 
@@ -37,8 +38,8 @@ summaryLength = 30
     title = "GitHub 仓库"
   
   [[params.socialIcons]]
-    name = "weixin"  # Font Awesome 中的微信图标名称
-    url = "/wechat-qr"  # 链接到你的微信二维码页面
+    name = "weixin"
+    url = "/wechat-qr"
     title = "微信公众号"
 
   [[params.socialIcons]]
@@ -56,40 +57,38 @@ summaryLength = 30
     type = "fuse"
     placeholder = "搜索文章..."
     maxResultLength = 30
-    showSavedSearch = true  # 显示搜索历史
+    showSavedSearch = true
 
-  [build]
-    writeStats = true
+[build]
+  writeStats = true
 
-  [outputs]
-    home = ["HTML", "RSS", "JSON"]
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
-# 多语言配置（只保留中文）
-[languages.zh-cn]
-  languageName = "简体中文"
-  weight = 1
+# 顶级菜单配置
+[menu]
 
-  [[languages.zh-cn.menu.main]]
+  [[menu.main]]
     name = "首页"
-    url = "/"
+    url  = "/"
     weight = 1
 
-  [[languages.zh-cn.menu.main]]
+  [[menu.main]]
     name = "归档"
-    url = "/archives/"
+    url  = "/archives/"
     weight = 10
 
-  [[languages.zh-cn.menu.main]]
+  [[menu.main]]
     name = "标签"
-    url = "/tags/"
+    url  = "/tags/"
     weight = 20
 
-  [[languages.zh-cn.menu.main]]
+  [[menu.main]]
     name = "项目"
-    url = "/projects/"
+    url  = "/projects/"
     weight = 30
 
-  [[languages.zh-cn.menu.main]]
+  [[menu.main]]
     name = "关于"
-    url = "/about/"
+    url  = "/about/"
     weight = 40
