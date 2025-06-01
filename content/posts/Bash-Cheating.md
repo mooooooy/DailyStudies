@@ -1,7 +1,7 @@
 +++
 
 title = 'Bash Cheating Sheet Chinese version'
-date = 2025-06-01T07:07:07+01:00
+date = 2025-06-01
 draft = false
 
 +++
